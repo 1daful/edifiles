@@ -1,0 +1,27 @@
+{
+  "name": "edifiles",
+  "version": "1.0.0",
+  "description": "These files contains common website service such as authenticatication, data access e.t.c.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "import": "./lib/js/init.js",
+    "require": "./lib/js/init.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1daful/edifiles.git"
+  },
+  "keywords": [
+    "web",
+    "services"
+  ],
+  "author": "Awon (1daful)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1daful/edifiles/issues"
+  },
+  "homepage": "https://github.com/1daful/edifiles#readme"
+}
